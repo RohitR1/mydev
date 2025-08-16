@@ -52,7 +52,7 @@ public class QuizServiceImpl implements QuizService{
 	    } catch (Exception e) {
 	        quiz.setQuestions(List.of()); // Return empty list if Question Service fails
 	    }
-	    return quiz;
+	     return quiz;
 	}
 	
 	
